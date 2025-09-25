@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia';
+  line-height: 1.6;
+  background: #e75f6a;
+  color: #fff;
+}
+
+.about-section {
+  padding: 20px 100px 100px;
+}
+
+.underline {
+  display: block;
+  width: 500px;
+  height: 4px;
+  background: #7c0424;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
