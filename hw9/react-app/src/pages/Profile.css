@@ -1,0 +1,38 @@
+.profile-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 80vh;
+padding: 20px;
+background-color: #242424;
+color: white;
+}
+
+.profile-container h2 {
+font-size: 2em;
+margin-bottom: 20px;
+color: #ead2e4;
+}
+
+.profile-container p {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.profile-container button {
+padding: 10px 15px;
+border-radius: 8px;
+border: 1px solid #ead2e4;
+background-color: transparent;
+color: #ead2e4;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+margin-top: 20px;
+}
+
+.profile-container button:hover {
+background-color: #ead2e4;
+color: #30242d;
+}
